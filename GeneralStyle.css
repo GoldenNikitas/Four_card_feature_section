@@ -54,7 +54,10 @@
 }
 #mainSubBlock {
     text-align: center;
-    margin: 6em auto;
+    margin: 4em auto 0em;
+}
+h1 {
+    color: hsl(234, 12%, 34%);
 }
 h2 {
     color: hsl(234, 12%, 34%);

@@ -3,9 +3,61 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="GeneralStyle.css" rel="stylesheet" media="all">
+    <link href="StyleSmartPhone.css" rel="stylesheet" media="(min-width: 320px)">
+    <link href="StyleOtherDevices.css" rel="stylesheet" media="(min-width: 1024px)">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Four card feature section</title>
 </head>
 <body>
-
+    <!--General block-->
+    <div id="mainContainer">
+        <!--General subblock (for flexbox)-->
+        <div id="mainSubBlock">
+            <h2 style="font-weight: normal;">Reliable, efficient delivery</h2>
+            <h2><b>Powered by Technology</b></h2>
+            <p>
+                Our Artificial intelligence powered tools
+                use millions of project data points to
+                ensure that your project is successful
+            </p>
+        </div>
+        <!--flexbox support block-->
+        <div id="supFlex">
+            <!--Supervisor block-->
+            <div id="supervisor">
+                <h2><b>Supervisor</b></h2>
+                <p>Monitors activity to identify project readblocks</p>
+                <div class="imageFlex">
+                    <img src="icons\icon-supervisor.svg" alt="loupe" />
+                </div>
+            </div>
+            <!--Team Builder block-->
+            <div id="teamBuilder">
+                <h2><b>Team Builder</b></h2>
+                <p>Scans our talent network to create the optimal team for your project</p>
+                <div class="imageFlex">
+                    <img src="icons\icon-team-builder.svg" alt="house in fron of browser window" />
+                </div>
+            </div>
+            <!--Karma block-->
+            <div id="karma">
+                <h2><b>Karma</b></h2>
+                <p>Regularly evaluates our talent toi ensure quality</p>
+                <div class="imageFlex">
+                    <img src="icons\icon-karma.svg" alt="bulb-lamp"/>
+                </div>
+            </div>
+            <!--Calculator block-->
+            <div id="calculator">
+                <h2><b>Calculator</b></h2>
+                <p>Uses data from past projects to provide better delivery estimates</p>
+                <div class="imageFlex">
+                    <img src="icons\icon-calculator.svg" alt="calculator" />
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
